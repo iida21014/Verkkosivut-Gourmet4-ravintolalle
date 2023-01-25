@@ -19,3 +19,32 @@ header {
   } */
 
   /* Iidan koodi loppuu */
+
+  /* Elias*/
+  .container{
+    
+    text-align: center;   
+}
+.container2{
+
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 30px;
+    display: flex;
+}
+
+.button{
+
+    
+    border: 1em;
+    background-color: #c7384a;
+    color: #fff;
+    padding: 7px 80px;
+    text-align: center;
+    align-items: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+/*Eliaksen koodi loppuu */
