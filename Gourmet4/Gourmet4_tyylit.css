@@ -7,10 +7,26 @@ header {
     
 }
 
-.sm-icons {
+header img.logo{
+    filter: brightness(1.0);
+    transition: 1s ease;
+}
+
+header img.logo:hover {
+    transform: scale(1.2);
+    filter: brightness(1.1)
+}
+
+
+header .sm-icons {
     align-items: baseline;
     padding: 30px;
 
+}
+
+header .sm-icons:hover {
+    color: rgb(26, 26, 26);
+    text-decoration: underline;
 }
 
 /* .carousel {
