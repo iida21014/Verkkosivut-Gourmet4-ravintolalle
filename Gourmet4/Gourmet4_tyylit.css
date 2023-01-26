@@ -34,7 +34,6 @@ header {
     padding-bottom: 30px;
     display: flex;
     text-align: center;
-    
 }
 .kuva1{
 
@@ -139,7 +138,6 @@ footer ul li {
     text-align: center;
 }
 
-
 @media only screen and (max-width: 820px) {
     footer{
         background-color: #C7384A;
@@ -154,6 +152,20 @@ footer ul li {
 
     footer .opening-hours table {
         max-width: 200px;
+    }
+    .container{
+
+        display: grid;
+        width: fit-content;
+    }
+    .container2{
+
+        display: grid;
+        width: fit-content;
+        align-content: center;
+        text-align: center;
+        padding-left: 0%;
+        
     }
 }
 /*Tiinan koodi loppuu*/
