@@ -68,30 +68,19 @@ footer .sm-icons:hover {
   /* Iidan koodi loppuu */
 
   /* Elias*/
-  .container{
-    
-    text-align: center;   
-}
-.container2{
+  
+article .container{
 
     align-content:space-around;
-    padding-top: 30px;
-    padding-left: 80px;
-    padding-right: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
     display: flex;
     text-align: center;
 }
-.kuva1{
 
-    padding-right: 30px;
-
-}
-.kuva2{
-
-    padding-right: 30px;
-}
-.button{
+article .button{
 
     
     border: 1em;
@@ -101,6 +90,7 @@ footer .sm-icons:hover {
     text-align: center;
     align-items: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-bottom: 50px;
 
 
 }
@@ -209,18 +199,19 @@ footer ul li {
     }
 
     /*Elias*/
-    .container{
 
-        display: grid;
-        width: fit-content;
+    article .row{
+
+        flex-direction: column;
     }
-    .container2{
+    article .container{
 
-        display: grid;
+        
         width: fit-content;
         align-content: center;
         text-align: center;
-        padding-left: 0%;
         
     }
+    
+    
 }
