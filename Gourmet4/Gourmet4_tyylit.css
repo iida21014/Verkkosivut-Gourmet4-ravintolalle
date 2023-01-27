@@ -1,9 +1,14 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
 
 
 /* Iida: */
 
+
 header {
-    font-family: 'Roboto';      
+    font-family: 'Roboto', sans-serif;      
     
 }
 
@@ -14,19 +19,32 @@ header img.logo{
 
 header img.logo:hover {
     transform: scale(1.2);
-    filter: brightness(1.1)
+    filter: brightness(1.1);
 }
 
+header .container text-right{
+    text-align: right;
+}
 
-header .sm-icons {
-    align-items: baseline;
-    padding: 30px;
+header .navbar-toggler{
+    align-content: end;
+
+}
+header .icon-link {
+    align-items: top;
+    padding: 5px;
 
 }
 
-header .sm-icons:hover {
-    color: rgb(26, 26, 26);
-    text-decoration: underline;
+header .mx-auto {
+        text-align: right;
+}
+
+header .sm-icons svg:hover {
+    transform: scale(1.2);
+}
+footer .sm-icons:hover {
+    text-decoration: none;
 }
 
 /* .carousel {
