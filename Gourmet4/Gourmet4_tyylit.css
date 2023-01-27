@@ -22,8 +22,10 @@ header img.logo:hover {
     filter: brightness(1.1);
 }
 
-header .container text-right{
-    text-align: right;
+header .container-fluid{
+    float: inline-end
+    ;
+    
 }
 
 header .navbar-toggler{
@@ -36,9 +38,6 @@ header .icon-link {
 
 }
 
-header .mx-auto {
-        text-align: right;
-}
 
 header .sm-icons svg:hover {
     transform: scale(1.2);
@@ -47,10 +46,20 @@ footer .sm-icons:hover {
     text-decoration: none;
 }
 
-/* .carousel {
-    width: 1440px;
-    height:583px;
-  } */
+.carousel-caption {
+    font-family:'Oleo Script Swash Caps', sans-serif ;
+    top: 5em;
+    bottom: auto;
+    right: 3em;
+   
+
+}
+.carousel-caption h5 {
+    font-size: 3em;
+}
+.carousel-caption p {
+    font-size: 2em;
+}
 
   /* Iidan koodi loppuu */
 
