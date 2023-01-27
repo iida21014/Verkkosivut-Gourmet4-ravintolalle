@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gourmet4</title>
+    <title>Gourmet4 - Yhteystiedot</title>
     <link rel="stylesheet" href="Gourmet4_tyylit.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Oleo Script Swash Caps' rel='stylesheet'>
 </head>
 <body>
-
-
-  <!-- Iida: -->
-    <header>
+     <!-- Iida: -->
+     <header>
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
@@ -25,6 +23,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="row">
+                  <div class="col">
                   <ul class="navbar-nav sm-icons">
                     <a class="icon-link" href="https://facebook.com" target="_blank">
                       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -36,9 +35,9 @@
                       </svg></a>
                   </ul>
                 </div>
-                <div class="row">
+                <div class="col">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="index.html">ETUSIVU </a>
                 </li>
                 <li class="nav-item">
@@ -47,12 +46,12 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">MENU</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="yhteystiedot.html">YHTEYSTIEDOT</a>
                 </li>
               </ul>
             </div>
-
+          </div>
             </div>
           </div>
           </nav>
@@ -60,69 +59,70 @@
 
     </header>
 
+    <div class= "container">
+    <section class="openinghours">
+      <div class="openinghourscontent section">
+          <div class="header">
+               <h2>Aukioloajat</h2>
+  
+          </div>
+          <table class="opening-hours-table">
+              <tr id="Maanantai" itemprop="openingHours" title="Open Monday at 9am to 6pm">
+                  <td>Maanantai</td>
+                  <td class="opens">11:00</td>
+                  <td>-</td>
+                  <td class="closes">22:00</td>
+              </tr>
+              <tr id="Tiistai" itemprop="openingHours" title="Open Tuesday at 9am to 6pm">
+                  <td>Tiistai</td>
+                  <td class="opens">11:00</td>
+                  <td>-</td>
+                  <td class="closes">22:00</td>
+              </tr>
+              <tr id="Keskiviikko" itemprop="openingHours" title="Open Wednesday at 9am to 6pm">
+                  <td>Keskiviikko</td>
+                  <td class="opens">11:00</td>
+                  <td>-</td>
+                  <td class="closes">22:00</td>
+              </tr>
+              <tr id="Thursday" itemprop="openingHours" title="Open Thursday at 9am to 8pm">
+                  <td>Thursday</td>
+                  <td class="opens">11:00</td>
+                  <td>-</td>
+                  <td class="closes">22:00</td>
+              </tr>
+              <tr id="Friday" itemprop="openingHours" title="Open Friday at 9am to 6pm">
+                  <td>Friday</td>
+                  <td class="opens">11:00</td>
+                  <td>-</td>
+                  <td class="closes">24:00</td>
+              </tr>
+              <tr id="Saturday" itemprop="openingHours" title="Open Saturday at 10am to 6pm">
+                  <td>Saturday</td>
+                  <td class="opens">12:00</td>
+                  <td>-</td>
+                  <td class="closes">24:00</td>
+              </tr>
+              <tr id="Sunday" itemprop="openingHours" title="Open Sunday at 11am to 4pm">
+                  <td>Sunday</td>
+                  <td class="opens">12:00</td>
+                  <td>-</td>
+                  <td class="closes">22:00</td>
+              </tr>
+          </table>
+          <button style="cursor: pointer;" title="Make an Apointment Online" data-appointlet="u387">Varaa pöytä</button>
 
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="bread.jpg" class="d-block w-100" alt="Leipä">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Gourmet4 kutsuu viihtymään!</h5> 
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="burger.jpg" class="d-block w-100" alt="Burgeri">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>"Herkulliset ruuat ja mahtava palvelu!"</h5> 
-              <p>-Pentti</p>
-          </div>
-        </div>
-          <div class="carousel-item">
-            <img src="olut.jpg" class="d-block w-100" alt="Olut">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>"Tulisin toistekin"</h5> 
-              <p>-Marjatta</p>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-
- <!-- Iidan koodi loppuu -->
- <!-- Elias -->
- <article>
- <div class="container">
-  <div class="row"> 
-    <div class="col"> <h1>Otsikko 1</h1> 
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo magnam, quam optio recusandae sit voluptas aperiam dolorem voluptate obcaecati doloremque tempora porro temporibus similique repellendus, veritatis harum architecto aliquid.</p>
-    </div>   
-  </div>
- </div>
- 
- 
- <div class="container">
-  <div class="row">
-     <div class="col"><img src="burger2.png" class="img-responsive"> 
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam nesciunt facere in similique officia, quaerat exercitationem earum autem atque.</p>
-         <button type="button" class="button">MENU</button>
-     </div> 
-     <div class="col"><img src="burger2.png" class="img-responsive">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam nesciunt facere in similique officia, quaerat exercitationem earum autem atque.</p>
-         <button type="button" class="button">GOURMET4</button>
-     </div>  
-     <div class="col"><img src="burger2.png" class="img-responsive">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam nesciunt facere in similique officia, quaerat exercitationem earum autem atque.</p>
-         <button type="button" class="button">OTA YHTEYTTÄ</button>
-     </div>
-  </div>   
+  </section>
 </div>
-</article>
-<!--Eliaksen koodi loppuu-->
+
+    <div class="container">
+
+    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=24.475578367710117%2C60.976650791885305%2C24.478088915348057%2C60.977508347980105&amp;layer=mapnik&amp;marker=60.977079572824415%2C24.476833641529083" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=60.97708&amp;mlon=24.47683#map=19/60.97708/24.47683">Näytä isommalla kartalla</a></small>
+    
+  </div>
+
+
 
   <!--Tiinan koodi alkaa-->
   <footer>
@@ -197,7 +197,7 @@
   </footer>
   <!--Tiinan koodi loppuu-->
 
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
