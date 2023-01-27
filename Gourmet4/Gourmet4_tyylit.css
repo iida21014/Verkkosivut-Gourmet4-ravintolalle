@@ -71,12 +71,9 @@ footer .sm-icons:hover {
   
 article .container{
 
-    align-content:space-around;
+    
     padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
     padding-bottom: 50px;
-    display: flex;
     text-align: center;
 }
 
