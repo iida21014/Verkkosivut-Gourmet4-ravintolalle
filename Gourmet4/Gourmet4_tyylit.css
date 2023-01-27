@@ -65,6 +65,54 @@ footer .sm-icons:hover {
     font-size: 30px;
 }
 
+
+.openinghours {
+    
+   
+    margin:10px;
+    padding:0 10px 0 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+.openinghourscontent h2 {
+    font-family:'Oleo Script Swash Caps', sans-serif ;
+    display:block;
+    text-align:center;
+    margin-top:.33em;
+}
+
+
+.opening-hours-table tr td:first-child {
+    font-weight:bold;
+}
+
+
+.opening-hours-table tr td {
+    padding:5px;
+}
+
+.contacts ul {
+    padding: 0;
+    list-style: none;
+}
+
+.contacts h2 {
+    font-family:'Oleo Script Swash Caps', sans-serif ;
+    display:block;
+    text-align:center;
+    margin-top:.33em;
+}
+
+.contacts {
+    text-align:center;
+    margin:10px;
+    padding:0 10px 0 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
   /* Iidan koodi loppuu */
 
   /* Elias*/
