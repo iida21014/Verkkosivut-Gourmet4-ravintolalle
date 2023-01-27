@@ -185,7 +185,14 @@ footer ul li {
     text-align: center;
 }
 
+/*Tiinan koodi loppuu*/
+
+
+/*Media queryt*/
+
 @media only screen and (max-width: 820px) {
+
+    /*Tiina:*/
     footer{
         background-color: #C7384A;
     }
@@ -200,6 +207,8 @@ footer ul li {
     footer .opening-hours table {
         max-width: 200px;
     }
+
+    /*Elias*/
     .container{
 
         display: grid;
@@ -215,4 +224,3 @@ footer ul li {
         
     }
 }
-/*Tiinan koodi loppuu*/
