@@ -38,6 +38,10 @@ header .icon-link {
 
 }
 
+header .row {
+    margin-right: 0;
+}
+
 
 header .sm-icons svg:hover {
     transform: scale(1.2);
@@ -48,17 +52,17 @@ footer .sm-icons:hover {
 
 .carousel-caption {
     font-family:'Oleo Script Swash Caps', sans-serif ;
-    top: 5em;
+    top: 30px;
     bottom: auto;
-    right: 3em;
+   
    
 
 }
 .carousel-caption h5 {
-    font-size: 3em;
+    font-size: 40px;
 }
 .carousel-caption p {
-    font-size: 2em;
+    font-size: 30px;
 }
 
   /* Iidan koodi loppuu */
