@@ -52,8 +52,10 @@ header .row {
 header .sm-icons svg:hover {
     transform: scale(1.2);
 }
-footer .sm-icons:hover {
-    text-decoration: none;
+
+header .active {
+    color: black;
+    text-decoration:solid;
 }
 
 .carousel-caption {
