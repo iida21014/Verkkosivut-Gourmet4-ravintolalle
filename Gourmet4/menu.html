@@ -18,7 +18,7 @@
             <section class="container">
 
                 <!--Otsikko ja teksti-->
-                <section class="menu-intro">
+                <section class="menu-intro" id=menu-start>
                     <section class="row">
                         <section class="col text-center">
                             <h1>Gourmet4 ruokalistat</h1>
@@ -28,10 +28,27 @@
                     </section>
                 </section>
                 
+               <!--Menun navigaatio-->
+
+                <nav class="nav flex-column flex-sm-row">
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#starters">Starterit</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#main-dishes">Pääruoat</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#desserts">Jälkiruoat</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#drinks">Juomat</a>
+                </nav>
+                <section id="menu-up">
+                    <a href="#menu-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-compact-up" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M7.776 5.553a.5.5 0 0 1 .448 0l6 3a.5.5 0 1 1-.448.894L8 6.56 2.224 9.447a.5.5 0 1 1-.448-.894l6-3z"/>
+                      </svg>
+                    </a>
+                </section>
+
                 <hr>
                 
+                <!-- Varsinainen menu alkaa tästä-->
                 <!--Starterit-->
-                <section class="starters">
+                <section id="starters">
                     <section class="row" >
                         <section class="col text-center">
                             <h2>Starterit</h2>
@@ -88,7 +105,7 @@
             
 
                 <!--Pääruoat-->
-                <section class="main-dishes">
+                <section id="main-dishes">
                     <section class="row" >
                         <section class="col text-center">
                             <h2>Pääruoat</h2>
@@ -189,7 +206,7 @@
                     </section>
                 </section>
                                 <!--Jälkiruoat-->
-                <section class="desserts">
+                <section id="desserts">
                     <section class="row" >
                         <section class="col text-center">
                             <h2>Jälkiruoat</h2>
@@ -245,7 +262,7 @@
                 </section>
 
                 <!--Juomat-->
-                <section class="drinks">
+                <section id="drinks">
                     <section class="row" >
                         <section class="col text-center">
                             <h2>Juomat</h2>
