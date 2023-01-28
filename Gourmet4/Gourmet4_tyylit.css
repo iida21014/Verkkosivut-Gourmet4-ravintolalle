@@ -220,10 +220,70 @@ footer ul li {
     text-align: center;
 }
 
+/* Menun tyylejä*/
+.menu h1, h2 { 
+    font-family: 'Oleo Script Swash Caps', sans-serif;
+}
+
+.menu .col {
+    padding: 30px;
+}
+
+.menu-intro {
+    padding-top: 30px;
+}
+.menu .card-spacing {
+    padding: 10px 5px 30px 5px;
+
+}
+
+.menu .card-body p{
+    height: 80px;
+}
+
+.menu .card {
+    border-width: 2px;
+    border-radius: 0;
+}
+
+.menu hr {
+    border-top: 2px solid;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.menu .card .price-tag {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.menu .card img {
+    border-radius: 0;
+}
+.menu .btn {
+    background-color: #C7384A;
+    color: #fff;
+    border-radius: 0;
+    transition: 0.5s ease;
+    
+}
+.menu .btn:hover {
+    transform: scale(1.05);
+    background-color: #C7384A;
+    color: #fff;
+    filter: brightness(1.1)
+}
+
+
+
+
+
 /*Tiinan koodi loppuu*/
 
 
 /*Media queryt*/
+
+
 
 @media only screen and (max-width: 820px) {
 
@@ -259,4 +319,22 @@ footer ul li {
     }
     
     
+}
+
+@media only screen and (max-width: 391px) {
+
+    /*Tiina*/
+
+    .menu .card-spacing {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
+.menu hr {
+    width: 50%;
+    margin: auto;
+    
+}
 }
