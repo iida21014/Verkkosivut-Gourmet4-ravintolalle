@@ -1,5 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -147,6 +150,7 @@ footer {
     background-color: black;
     color: white;
     padding-bottom: 50px;
+    margin-top: auto;
 }
 footer .top-divider {
     height: 20px;
