@@ -240,8 +240,12 @@ footer ul li {
 }
 
 /* Menun tyylejä - Tiina*/
+.menu-divider {
+    height: 20px;
+    background-color: #C7384A;
+}
 .menu {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 .menu h1, h2 { 
@@ -334,8 +338,18 @@ footer ul li {
     color: #fff;
     filter: brightness(1.1)
 }
+.menu .card-body .card-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
+.menu .meal-info .info-icon {
+    width: 36px;
+    color: grey;
+    text-align: right;
+}
 
 
 
