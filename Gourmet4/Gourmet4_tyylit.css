@@ -44,7 +44,9 @@ header .icon-link {
 
 }
 
-
+header .navbar-collapse{
+    text-align: center;
+}
 
 
 header .sm-icons svg:hover {
