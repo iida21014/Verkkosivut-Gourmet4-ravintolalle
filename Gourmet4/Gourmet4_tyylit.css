@@ -44,13 +44,16 @@ header .icon-link {
 
 }
 
-header .row {
-    margin-right: 0;
-}
+
 
 
 header .sm-icons svg:hover {
     transform: scale(1.2);
+}
+
+header .sm-icons  {
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 header .active {
@@ -76,10 +79,10 @@ header .active {
 
 .intro {
     text-align:center;
-    padding: 0px 50px 50px 50px; 
+    padding: 50px 50px 0px 50px; 
 }
 .details {
-    padding: 0px 50px 50px 50px; 
+    padding: 50px 50px 50px 50px; 
 
 }
 .openinghours, .contacts, .map {
