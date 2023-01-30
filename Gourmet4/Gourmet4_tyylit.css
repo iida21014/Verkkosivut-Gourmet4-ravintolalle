@@ -10,9 +10,9 @@ body h1 {
     font-family: 'Oleo Script Swash Caps', sans-serif;
 }
 
-/* Iida: */
+/* Iidan koodi alkaa: */
 
-
+/* Headeriin liittyvät muotoilut */
 header {
     font-family: 'Roboto', sans-serif;      
     
@@ -48,7 +48,6 @@ header .navbar-collapse{
     text-align: center;
 }
 
-
 header .sm-icons svg:hover {
     transform: scale(1.2);
 }
@@ -67,14 +66,12 @@ header .divider {
     background-color: #C7384A;
 }
 
+/* Kuvakaruselliin liittyvät muotoilut */
 .carousel-caption {
     font-family:'Oleo Script Swash Caps', sans-serif ;
     text-shadow: 5px 5px 10px black;
     top: 30px;
     bottom: auto;
-   
-   
-
 }
 .carousel-caption h5 {
     font-size: 40px;
@@ -83,14 +80,18 @@ header .divider {
     font-size: 30px;
 }
 
+/* Yhteystietosivun tekstiosion muotoilut */
 .intro {
     text-align:center;
     padding: 50px 50px 0px 50px; 
 }
+
+/* Yhteystietosivun sisältöosuuden muotoilut */
 .details {
     padding: 50px 50px 50px 50px; 
 
 }
+
 .openinghours, .contacts, .map {
     
     border-radius:4px;
@@ -102,7 +103,6 @@ header .divider {
     
 }
 
-
 .openinghourscontent h2, .contacts h2 {
     font-family:'Oleo Script Swash Caps', sans-serif ;
     display:block;
@@ -110,11 +110,9 @@ header .divider {
     margin-top:.33em;
 }
 
-
 .opening-hours-table tr td:first-child {
     font-weight:bold;
 }
-
 
 .opening-hours-table tr td {
     padding:5px;
