@@ -85,7 +85,7 @@ header .divider {
 
 }
 
-.openinghours, .contacts, .map {
+.openinghours, .contacts, .map1, .map2 {
     
     border-radius:4px;
     margin:10px;
@@ -379,6 +379,11 @@ footer ul li {
     #menu-up {
     display: none;
     }
+
+    /* Iida */
+    .map2, .map3 {
+        display: none;
+    }
     
 }
 
@@ -416,8 +421,19 @@ footer ul li {
     #menu-up svg {
         width: 72px;
     }
-    
-    
+       
+    /* Iida */
+    .intro  {
+        padding-left: 100px;
+        padding-right: 100px;
+        
+    }
+    .map1, .map3 {
+        display: none;
+    }
+
+
+
 }
 
 @media only screen and (max-width: 391px) {
@@ -441,8 +457,13 @@ footer ul li {
     }
 
     /* Iida */
+    .intro  {
+        padding-left: 40px;
+        padding-right: 40px;
+        
 
-    .openinghours .contacts {
-    align-content: center;
+    }
+    .map1, .map2 {
+        display: none;
     }
 }
