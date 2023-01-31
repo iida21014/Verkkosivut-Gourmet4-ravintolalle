@@ -175,9 +175,13 @@ article .button:hover{
 
 }
 hr {
-    width: 40%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+section .meidantarina{
+
+    margin-top: 50px;
 }
 
 /*Eliaksen koodi loppuu */
@@ -427,6 +431,7 @@ footer ul li {
     #menu-up svg {
         width: 72px;
     }
+    
        
     /* Iida */
     .yhteystiedot .intro  {
