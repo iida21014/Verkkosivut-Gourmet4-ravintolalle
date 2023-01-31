@@ -2,8 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 body h1 {
@@ -137,7 +136,7 @@ header .divider {
 
   /* Iidan koodi loppuu */
 
-  /* Elias*/
+  /* Eliaksen muotoilut alkaa*/
   
 article .container{
 
@@ -186,9 +185,9 @@ section .meidantarina{
     margin-top: 50px;
 }
 
-/*Eliaksen koodi loppuu */
+/*Eliaksen muotoilut loppuu */
 
-/*Tiinan koodi alkaa*/
+/*Tiinan muotoilut alkaa*/
 
 /*Footerin tyylejä  - Tiina */
 footer {
@@ -273,7 +272,7 @@ footer ul li {
 /* Menun tyylejä - Tiina*/
 
 .menu {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 .menu h1, h2 { 
@@ -281,7 +280,7 @@ footer ul li {
 }
 
 .menu .col {
-    padding: 30px;
+    padding: 0, 30px 30px 30px;
 }
 
 .menu nav {
@@ -373,21 +372,18 @@ footer ul li {
 }
 
 
-.menu .meal-info .info-icon {
+.menu .meal-info .bi-info-circle{
     width: 30px;
     color: grey;
     text-align: right;
 }
-
-
-
-/*Tiinan koodi loppuu*/
+/*Tiinan muotoilut loppuu*/
 
 
 /*Media queryt*/
 @media only screen and (min-width: 821px){
+    
     /*Tiina*/
-
     #menu-up {
     display: none;
     }
@@ -400,7 +396,7 @@ footer ul li {
 }
 
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 821px) {
 
     /*Tiina:*/
     footer{
@@ -419,7 +415,6 @@ footer ul li {
     }
 
     /*Elias*/
-
     article .row{
         flex-direction: column;
     }
@@ -429,7 +424,6 @@ footer ul li {
         align-content: center;
         text-align: center;
     }
-
     #menu-up svg {
         width: 72px;
     }
@@ -456,7 +450,6 @@ footer ul li {
 @media only screen and (max-width: 391px) {
 
     /*Tiina*/
-
     .menu .card-spacing {
         padding-left: 30px;
         padding-right: 30px;
