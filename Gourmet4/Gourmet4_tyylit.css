@@ -185,6 +185,12 @@ section .meidantarina{
 
     margin-top: 50px;
 }
+section .mobileimg{
+
+    display: none;
+}
+
+
 
 /*Eliaksen koodi loppuu */
 
@@ -429,12 +435,21 @@ footer ul li {
         align-content: center;
         text-align: center;
     }
+    section .container{
 
-    #menu-up svg {
-        width: 72px;
+        margin-bottom: 20px;
+        width: fit-content;
     }
-    
-       
+
+    section .desktopimg{
+
+        display: none;
+    }
+    section .mobileimg{
+
+        display: contents;
+     }
+        
     /* Iida */
     .yhteystiedot .intro  {
         padding-left: 100px;
@@ -449,6 +464,13 @@ footer ul li {
         padding-right: 30px;
         padding-left: 30px;
     }
+
+    #menu-up svg {
+        width: 72px;
+     } 
+    
+    
+ 
 
 
 }
