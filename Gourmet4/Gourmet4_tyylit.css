@@ -30,6 +30,7 @@ header img.logo:hover {
 
 header .navbar-toggler{
     align-content: end;
+    margin-right: 50px;
 }
 header .icon-link {
     align-items: top;
@@ -74,18 +75,18 @@ header .divider {
 }
 
 /* Yhteystietosivun tekstiosion muotoilut */
-.intro {
+.yhteystiedot .intro {
     text-align:center;
     padding: 50px 50px 0px 50px; 
 }
 
 /* Yhteystietosivun sisältöosuuden muotoilut */
-.details {
+.yhteystiedot .details {
     padding: 50px 50px 50px 50px; 
 
 }
 
-.openinghours, .contacts, .map1, .map2 {
+.yhteystiedot .openinghours, .contacts, .map1, .map2 {
     
     border-radius:4px;
     margin:10px;
@@ -96,35 +97,40 @@ header .divider {
     
 }
 
-.openinghourscontent h2, .contacts h2 {
+.yhteystiedot .openinghours, .contacts{
+    padding-right: 58px;
+    padding-left: 58px;
+}
+
+.yhteystiedot .openinghourscontent h2, .contacts h2 {
     font-family:'Oleo Script Swash Caps', sans-serif ;
     display:block;
     text-align:center;
     margin-top:.33em;
 }
 
-.opening-hours-table tr td:first-child {
+.yhteystiedot .opening-hours-table tr td:first-child {
     font-weight:bold;
 }
 
-.opening-hours-table tr td {
+.yhteystiedot .opening-hours-table tr td {
     padding:5px;
 }
 
-.contacts ul {
+.yhteystiedot .contacts ul {
     padding: 0;
     list-style: none;
 }
 
-.contacts {
+.yhteystiedot .contacts {
     text-align:center;
 }
 
-.contacts a {
+.yhteystiedot .contacts a {
     color: black;
     text-decoration: underline;
 }
-.contacts a:hover {
+.yhteystiedot .contacts a:hover {
     color: darkgray;
     text-decoration: underline;
 }
@@ -381,7 +387,7 @@ footer ul li {
     }
 
     /* Iida */
-    .map2, .map3 {
+    .yhteystiedot .map2 {
         display: none;
     }
     
@@ -423,15 +429,19 @@ footer ul li {
     }
        
     /* Iida */
-    .intro  {
+    .yhteystiedot .intro  {
         padding-left: 100px;
         padding-right: 100px;
         
     }
-    .map1, .map3 {
+    .yhteystiedot .map1 {
         display: none;
     }
 
+    .yhteystiedot .openinghours, .contacts{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
 
 
 }
@@ -457,13 +467,17 @@ footer ul li {
     }
 
     /* Iida */
-    .intro  {
+    .yhteystiedot .intro  {
         padding-left: 40px;
         padding-right: 40px;
         
+    }
 
+    .yhteystiedot .openinghours, .contacts{
+        padding-right: 58px;
+        padding-left: 58px;
     }
-    .map1, .map2 {
-        display: none;
-    }
+
+
+
 }
