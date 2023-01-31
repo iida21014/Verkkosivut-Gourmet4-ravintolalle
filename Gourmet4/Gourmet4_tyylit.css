@@ -158,12 +158,14 @@ article .button{
     align-items: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin-bottom: 50px;
+    transition: 0.5s ease;   
 
 }
 article .button:hover{
 
-    color: black;
-    text-decoration-line: underline;
+    color: #fff;
+    transform: scale(1.05);
+    filter: brightness(1.1)
 }
 .col1{
 
