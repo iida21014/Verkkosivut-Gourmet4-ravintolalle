@@ -28,15 +28,8 @@ header img.logo:hover {
     filter: brightness(1.1);
 }
 
-header .container-fluid{
-    float: inline-end
-    ;
-    
-}
-
 header .navbar-toggler{
     align-content: end;
-
 }
 header .icon-link {
     align-items: top;
@@ -445,5 +438,11 @@ footer ul li {
 
     #menu-up svg {
         width: 48px;
+    }
+
+    /* Iida */
+
+    .openinghours .contacts {
+    align-content: center;
     }
 }
