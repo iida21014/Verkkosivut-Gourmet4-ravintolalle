@@ -433,17 +433,20 @@ footer ul li {
     section .container{
 
         margin-bottom: 20px;
-        width: fit-content;
+        
+        
     }
 
     section .desktopimg{
 
         display: none;
     }
+    
     section .mobileimg{
 
         display: contents;
      }
+    
         
     /* Iida */
     .yhteystiedot .intro  {
@@ -501,6 +504,20 @@ footer ul li {
         padding-left: 58px;
     }
 
+    /* Elias */
+    section .container{
+
+        margin-left: 2px;
+    }
+    
+    section .desktopimg{
+
+        display: none;
+    }
+    section .mobileimg{
+
+        display: contents;
+     }
 
 
 }
