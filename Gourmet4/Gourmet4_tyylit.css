@@ -188,6 +188,10 @@ section .mobileimg{
 
     display: none;
 }
+section .tabletimg{
+
+    display: none;
+}
 
 
 
@@ -432,8 +436,9 @@ footer ul li {
     }
     section .container{
 
-        margin-bottom: 20px;
-        max-width: fit-content;
+        margin-bottom: 35px;
+        max-width: 500px;
+        
         
         
     }
@@ -445,9 +450,13 @@ footer ul li {
     
     section .mobileimg{
 
-        display: contents;
+        display: none;
      }
     
+    section .tabletimg{
+
+        display: contents;
+    }
         
     /* Iida */
     .yhteystiedot .intro  {
@@ -519,6 +528,10 @@ footer ul li {
 
         display: contents;
      }
+     section .tabletimg{
+
+        display: none;
+    }
 
 
 }
