@@ -433,6 +433,7 @@ footer ul li {
     section .container{
 
         margin-bottom: 20px;
+        max-width: fit-content;
         
         
     }
