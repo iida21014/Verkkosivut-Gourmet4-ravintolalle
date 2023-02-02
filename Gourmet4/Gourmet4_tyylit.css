@@ -27,10 +27,6 @@ header img.logo:hover {
     filter: brightness(1.1);
 }
 
-header .nav-item {
-    align-items: bottom;
-}
-
 header .navbar-toggler{
     align-content: end;
     margin-right: 50px;
